@@ -13963,14 +13963,14 @@
 }, {
   "name": "BlockX Atlantis Testnet",
   "chainId": 19077,
-  "shortName": "bcx",
+  "shortName": "tbcx",
   "networkId": 19077,
   "nativeCurrency": {
     "name": "BCX",
     "symbol": "BCX",
     "decimals": 18
   },
-  "rpc": ["https://atlantis-rpc.blockxnet.com/"],
+  "rpc": ["https://atlantis-web3.blockxnet.com"],
   "faucets": ["https://ping.blockxnet.com/blockx-atlantis-testnet/faucet"],
   "infoURL": "https://www.blockxnet.com/"
 }, {
