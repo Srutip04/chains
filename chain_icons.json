@@ -1687,6 +1687,14 @@
     "format": "png"
   }]
 }, {
+  "name": "neox",
+  "icons": [{
+    "url": "ipfs://QmR3iCrjrW814fyv79UeVimDT4fTeBQcpYgMYxv1U6W15u",
+    "width": 512,
+    "height": 512,
+    "format": "png"
+  }]
+}, {
   "name": "roburna",
   "icons": [{
     "url": "ipfs://QmTk1uhB9nvnvXifvwEPGFcdgsXRt4EXNjovUGyUmfFRcB",
@@ -2957,6 +2965,14 @@
     "width": 256,
     "height": 256,
     "format": "svg"
+  }]
+}, {
+  "name": "lit",
+  "icons": [{
+    "url": "ipfs://QmXZcwET1LhUxfc2mCdiCJFm61jUHsVVXuZYwx8zhvHQxn",
+    "width": 164,
+    "height": 120,
+    "format": "png"
   }]
 }, {
   "name": "titan_tkx",
