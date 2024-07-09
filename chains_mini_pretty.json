@@ -6629,6 +6629,19 @@
   "faucets": ["https://faucet.ctexscan.com"],
   "infoURL": "https://ctextoken.io"
 }, {
+  "name": "ZKBase Mainnet",
+  "chainId": 1456,
+  "shortName": "zkbase",
+  "networkId": 1456,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.zkbase.app"],
+  "faucets": [],
+  "infoURL": "https://zkbase.org/"
+}, {
   "name": "Vitruveo Mainnet",
   "chainId": 1490,
   "shortName": "vitruveo",
@@ -9189,6 +9202,19 @@
   "rpc": ["http://mainnet.ethstorage.io:9540"],
   "faucets": [],
   "infoURL": "https://ethstorage.io/"
+}, {
+  "name": "The peaq Network",
+  "chainId": 3338,
+  "shortName": "PEAQ",
+  "networkId": 3338,
+  "nativeCurrency": {
+    "name": "peaq",
+    "symbol": "PEAQ",
+    "decimals": 18
+  },
+  "rpc": ["https://peaq.api.onfinality.io/public", "https://peaq-rpc.dwellir.com"],
+  "faucets": [],
+  "infoURL": "https://www.peaq.network"
 }, {
   "name": "Paribu Net Mainnet",
   "chainId": 3400,
@@ -13753,6 +13779,19 @@
   "faucets": [],
   "infoURL": "https://defi-verse.org"
 }, {
+  "name": "PLYR PHI",
+  "chainId": 16180,
+  "shortName": "plyr-phi",
+  "networkId": 16180,
+  "nativeCurrency": {
+    "name": "PLYR",
+    "symbol": "PLYR",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/plyr/mainnet/rpc"],
+  "faucets": [],
+  "infoURL": "https://plyr.network"
+}, {
   "name": "Incentiv Devnet",
   "chainId": 16350,
   "shortName": "tIncentiv",
@@ -16015,6 +16054,19 @@
   "faucets": [],
   "infoURL": "https://linea.build"
 }, {
+  "name": "Metis Sepolia Testnet",
+  "chainId": 59902,
+  "shortName": "metis-sepolia",
+  "networkId": 59902,
+  "nativeCurrency": {
+    "name": "tMetis",
+    "symbol": "tMETIS",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia.metisdevops.link"],
+  "faucets": ["https://sepolia.faucet.metisdevops.link"],
+  "infoURL": "https://www.metis.io"
+}, {
   "name": "Genesys Code Mainnet",
   "chainId": 59971,
   "shortName": "gcode",
@@ -16540,8 +16592,8 @@
   "shortName": "GEEK",
   "networkId": 75512,
   "nativeCurrency": {
-    "name": "Geek",
-    "symbol": "GEEK",
+    "name": "OAS",
+    "symbol": "OAS",
     "decimals": 18
   },
   "rpc": ["https://rpc.geekout-pte.com"],
@@ -16553,8 +16605,8 @@
   "shortName": "GEEK_Test",
   "networkId": 75513,
   "nativeCurrency": {
-    "name": "Geek",
-    "symbol": "GEEK",
+    "name": "OAS",
+    "symbol": "OAS",
     "decimals": 18
   },
   "rpc": ["https://rpc-testnet.geekout-pte.com"],
@@ -18030,6 +18082,19 @@
   "faucets": [],
   "infoURL": "https://mindnetwork.xyz"
 }, {
+  "name": "MAZZE Testnet",
+  "chainId": 199991,
+  "shortName": "MAZZE",
+  "networkId": 199991,
+  "nativeCurrency": {
+    "name": "MAZZE Testnet",
+    "symbol": "MAZZE",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.mazze.io/"],
+  "faucets": ["https://faucet.mazze.io/"],
+  "infoURL": "https://mazze.io/"
+}, {
   "name": "xFair.AI Testnet",
   "chainId": 200000,
   "shortName": "fait",
@@ -19030,6 +19095,19 @@
   "rpc": ["https://baas-rpc.luniverse.io:18545?lChainId=1641349324562974539"],
   "faucets": [],
   "infoURL": "https://www.openchain.live"
+}, {
+  "name": "World Chain Sepolia Testnet",
+  "chainId": 484752,
+  "shortName": "wcsep",
+  "networkId": 484752,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://worldcoin.org/"
 }, {
   "name": "Autonomys Testnet Nova Domain",
   "chainId": 490000,
@@ -20045,6 +20123,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Xterio Chain",
+  "chainId": 2702128,
+  "shortName": "xterio",
+  "networkId": 2702128,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://xterio-eth.alt.technology"],
+  "faucets": [],
+  "infoURL": "https://xter.io"
+}, {
   "name": "SaharaAI Network",
   "chainId": 3132023,
   "shortName": "sahara",
@@ -20886,6 +20977,19 @@
     "symbol": "ATN",
     "decimals": 18
   },
+  "rpc": [],
+  "faucets": ["https://faucet.autonity.org/"],
+  "infoURL": "https://autonity.org/"
+}, {
+  "name": "Autonity Bakerloo (Yamuna) Testnet",
+  "chainId": 65010003,
+  "shortName": "bakerloo-03",
+  "networkId": 65010003,
+  "nativeCurrency": {
+    "name": "Bakerloo Auton",
+    "symbol": "ATN",
+    "decimals": 18
+  },
   "rpc": ["https://rpc1.bakerloo.autonity.org/", "wss://rpc1.bakerloo.autonity.org/ws/"],
   "faucets": ["https://faucet.autonity.org/"],
   "infoURL": "https://autonity.org/"
@@ -20920,6 +21024,19 @@
   "chainId": 65100002,
   "shortName": "piccadilly-02",
   "networkId": 65100002,
+  "nativeCurrency": {
+    "name": "Piccadilly Auton",
+    "symbol": "ATN",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://autonity.org/"
+}, {
+  "name": "Autonity Piccadilly (Yamuna) Testnet",
+  "chainId": 65100003,
+  "shortName": "piccadilly-03",
+  "networkId": 65100003,
   "nativeCurrency": {
     "name": "Piccadilly Auton",
     "symbol": "ATN",
@@ -21643,6 +21760,19 @@
   "rpc": ["https://sepolia-rpc.kakarot.org"],
   "faucets": [],
   "infoURL": "https://kakarot.org"
+}, {
+  "name": "Gemuchain Testnet",
+  "chainId": 1903648807,
+  "shortName": "Gemuchain",
+  "networkId": 1903648807,
+  "nativeCurrency": {
+    "name": "Gemuchain",
+    "symbol": "GEMU",
+    "decimals": 18
+  },
+  "rpc": ["https://gemutest-rpc.gemuchain.io"],
+  "faucets": ["https://faucet.gemuchain.io/"],
+  "infoURL": "https://gemuchain.io/"
 }, {
   "name": "RARI Chain Testnet",
   "chainId": 1918988905,

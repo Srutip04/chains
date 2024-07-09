@@ -625,7 +625,7 @@
 }, {
   "name": "kakarot",
   "icons": [{
-    "url": "ipfs://QmNTZ9nEomAXK6bLxUbMfTS1TvrsN22HU1zTtxHUpMkUhz",
+    "url": "ipfs://QmQcB7Q2kqVWhJxXmtN9Ri37rcLH9g6z4UCCYqEzgM3XmW",
     "width": 1000,
     "height": 1000,
     "format": "png"
@@ -1364,6 +1364,14 @@
     "url": "ipfs://QmXHSbtVNCJVfe2CvRH7njdyf2SrX5u5bNTfvhqjLeFN2A",
     "width": 938,
     "height": 938,
+    "format": "png"
+  }]
+}, {
+  "name": "peaq",
+  "icons": [{
+    "url": "ipfs://bafybeihnkvboj4n6psjnzn4omaopfekvag4kax22l4agx6zppp7xx3d6ky",
+    "width": 256,
+    "height": 256,
     "format": "png"
   }]
 }, {
@@ -4364,6 +4372,14 @@
     "url": "ipfs://QmbiaHnR3fVVofZ7Xq2GYZxwHkLEy3Fh5qDtqnqXD6ACAh",
     "width": 192,
     "height": 192,
+    "format": "png"
+  }]
+}, {
+  "name": "mazze",
+  "icons": [{
+    "url": "ipfs://QmaR9Ud3aD7RaHYdsi3TdC1qx4zVusM76nd91s3Ghaz5fa",
+    "width": 400,
+    "height": 400,
     "format": "png"
   }]
 }, {
