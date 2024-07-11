@@ -567,7 +567,7 @@
     "symbol": "CRAB",
     "decimals": 18
   },
-  "rpc": ["https://crab-rpc.darwinia.network", "https://crab-rpc.darwiniacommunitydao.xyz"],
+  "rpc": ["https://crab-rpc.darwinia.network", "https://crab-rpc.dcdao.box"],
   "faucets": [],
   "infoURL": "https://crab.network/"
 }, {
@@ -593,9 +593,9 @@
     "symbol": "RING",
     "decimals": 18
   },
-  "rpc": ["https://rpc.darwinia.network", "https://darwinia-rpc.darwiniacommunitydao.xyz", "https://darwinia-rpc.dwellir.com"],
+  "rpc": ["https://rpc.darwinia.network", "https://darwinia-rpc.dcdao.box", "https://darwinia-rpc.dwellir.com"],
   "faucets": [],
-  "infoURL": "https://darwinia.network/"
+  "infoURL": "https://darwinia.network"
 }, {
   "name": "Acria IntelliChain",
   "chainId": 47,
@@ -16314,6 +16314,19 @@
   "faucets": [],
   "infoURL": "https://scolcoin.com"
 }, {
+  "name": "Automata Mainnet",
+  "chainId": 65536,
+  "shortName": "automatamainnet",
+  "networkId": 65536,
+  "nativeCurrency": {
+    "name": "ATA",
+    "symbol": "ATA",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://ata.network"
+}, {
   "name": "Janus Testnet",
   "chainId": 66988,
   "shortName": "janusnetwork-testnet",
@@ -18589,6 +18602,19 @@
   "faucets": [],
   "infoURL": "https://zillnet.io"
 }, {
+  "name": "Cipherem Testnet",
+  "chainId": 292003,
+  "shortName": "CIP",
+  "networkId": 292003,
+  "nativeCurrency": {
+    "name": "CIP",
+    "symbol": "CIP",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.cipherem.com"],
+  "faucets": [],
+  "infoURL": "https://www.cipherem.com"
+}, {
   "name": "One World Chain Mainnet",
   "chainId": 309075,
   "shortName": "OWCTm",
@@ -18653,6 +18679,19 @@
   "rpc": ["https://testnet-rpc.bloomgenesis.com"],
   "faucets": ["https://faucet.bloomgenesis.com"],
   "infoURL": "https://www.bloomgenesis.com"
+}, {
+  "name": "Nal Mainnet",
+  "chainId": 328527,
+  "shortName": "nal",
+  "networkId": 328527,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.nal.network", "wss://wss.nal.network"],
+  "faucets": [],
+  "infoURL": "https://www.nal.network"
 }, {
   "name": "TTcoin Smart Chain Mainnet",
   "chainId": 330844,
@@ -20011,11 +20050,11 @@
   "shortName": "automatatest",
   "networkId": 1398243,
   "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
+    "name": "ATA",
+    "symbol": "ATA",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://automata-testnet.alt.technology"],
   "faucets": [],
   "infoURL": "https://ata.network"
 }, {
@@ -20564,6 +20603,19 @@
   "rpc": ["https://mainnet-rpc.soverun.com"],
   "faucets": ["https://faucet.soverun.com"],
   "infoURL": "https://soverun.com"
+}, {
+  "name": "AlienX Mainnet",
+  "chainId": 10241024,
+  "shortName": "AlienX",
+  "networkId": 10241024,
+  "nativeCurrency": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.alienxchain.io/http"],
+  "faucets": [],
+  "infoURL": "https://alienxchain.io/home"
 }, {
   "name": "ALIENX Hal Testnet",
   "chainId": 10241025,
