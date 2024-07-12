@@ -615,6 +615,14 @@
     "format": "png"
   }]
 }, {
+  "name": "vecno",
+  "icons": [{
+    "url": "ipfs://QmXPmM55AvkpEmqCvfP9YNQV1xsRdsPZDzwp6QHVThw6Wv",
+    "width": 200,
+    "height": 200,
+    "format": "svg"
+  }]
+}, {
   "name": "coinbit",
   "icons": [{
     "url": "ipfs://QmdaQRUbAXJGfHeJ8jaB8WVh8CCmHExq8VjvAfXpLWWQEo",
@@ -2877,6 +2885,14 @@
     "width": 1024,
     "height": 1024,
     "format": "png"
+  }]
+}, {
+  "name": "GuruNetwork",
+  "icons": [{
+    "url": "ipfs://QmTDWnSNSCcVPCYD1FKrUirkT2MVrShdVK9dsxAi6eZdbD",
+    "width": 70,
+    "height": 70,
+    "format": "svg"
   }]
 }, {
   "name": "highbury",
@@ -5157,6 +5173,14 @@
     "width": 500,
     "height": 500,
     "format": "svg"
+  }]
+}, {
+  "name": "pop",
+  "icons": [{
+    "url": "ipfs://QmbY9ZPnveSEnFhbhfHr5B2R8SPhQBKbAZnwQCoEkvAQtT",
+    "width": 512,
+    "height": 512,
+    "format": "png"
   }]
 }, {
   "name": "mintTestnet",

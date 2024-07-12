@@ -2807,6 +2807,19 @@
   "faucets": [],
   "infoURL": "https://neonlink.io"
 }, {
+  "name": "Guru Network Testnet",
+  "chainId": 261,
+  "shortName": "tguru",
+  "networkId": 261,
+  "nativeCurrency": {
+    "name": "testGURU",
+    "symbol": "tGURU",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.gurunetwork.ai/archive/261"],
+  "faucets": ["https://v2.dex.guru/season-pass/faucet"],
+  "infoURL": "https://gurunetwork.ai"
+}, {
   "name": "SUR Blockchain Network",
   "chainId": 262,
   "shortName": "SUR",
@@ -11920,6 +11933,19 @@
   "faucets": [],
   "infoURL": "https://base.org"
 }, {
+  "name": "Chakra Testnet",
+  "chainId": 8545,
+  "shortName": "ChakraTN",
+  "networkId": 8545,
+  "nativeCurrency": {
+    "name": "Chakra",
+    "symbol": "CKR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpcv1-dn-1.chakrachain.io/"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "Toki Network",
   "chainId": 8654,
   "shortName": "toki",
@@ -13908,6 +13934,19 @@
   "rpc": ["https://rpc.garnetchain.com", "wss://rpc.garnetchain.com"],
   "faucets": [],
   "infoURL": "https://redstone.xyz"
+}, {
+  "name": "Onchain Points",
+  "chainId": 17071,
+  "shortName": "pop",
+  "networkId": 17071,
+  "nativeCurrency": {
+    "name": "OnchainPoints.xyz",
+    "symbol": "POP",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.onchainpoints.xyz", "https://rpc-onchain-points-8n0qkkpr2j.t.conduit.xyz/{CONDUIT_API_KEY}"],
+  "faucets": [],
+  "infoURL": "https://onchainpoints.xyz"
 }, {
   "name": "DeFiVerse Testnet",
   "chainId": 17117,
@@ -16300,6 +16339,19 @@
   "rpc": ["https://rpc.tst.ecredits.com"],
   "faucets": ["https://faucet.tst.ecredits.com"],
   "infoURL": "https://ecredits.com"
+}, {
+  "name": "Vecno Mainnet",
+  "chainId": 65357,
+  "shortName": "ve",
+  "networkId": 65357,
+  "nativeCurrency": {
+    "name": "Vecno",
+    "symbol": "VE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.vecno.org"],
+  "faucets": [],
+  "infoURL": "https://vecno.org"
 }, {
   "name": "Scolcoin Mainnet",
   "chainId": 65450,
