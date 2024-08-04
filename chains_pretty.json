@@ -2682,7 +2682,7 @@
   "name": "HashKey Chain Testnet",
   "title": "HashKey Chain Testnet",
   "chain": "HashKey Chain Testnet",
-  "rpc": [],
+  "rpc": ["https://hashkeychain-testnet.alt.technology"],
   "faucets": [],
   "nativeCurrency": {
     "name": "HashKey EcoPoints",
@@ -2693,7 +2693,12 @@
   "shortName": "HSKT",
   "chainId": 133,
   "networkId": 133,
-  "explorers": [],
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://hashkeychain-testnet-explorer.alt.technology",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }],
   "parent": {
     "type": "L2",
     "chain": "eip155-11155111"
@@ -8750,17 +8755,17 @@
     "chain": "eip155-1"
   }
 }, {
-  "name": "Klaytn Testnet Baobab",
-  "chain": "KLAY",
-  "rpc": ["https://public-en-baobab.klaytn.net", "https://api.baobab.klaytn.net:8651"],
-  "faucets": ["https://baobab.wallet.klaytn.com/access?next=faucet"],
+  "name": "Kaia Testnet Kairos",
+  "chain": "KAIA",
+  "rpc": ["https://public-en.kairos.node.kaia.io"],
+  "faucets": ["https://faucet.kaia.io"],
   "nativeCurrency": {
-    "name": "KLAY",
-    "symbol": "KLAY",
+    "name": "KAIA",
+    "symbol": "KAIA",
     "decimals": 18
   },
-  "infoURL": "https://klaytn.foundation",
-  "shortName": "Baobab",
+  "infoURL": "https://kaia.io/",
+  "shortName": "kaia-kairos",
   "chainId": 1001,
   "networkId": 1001,
   "slip44": 1,
@@ -12628,11 +12633,11 @@
   "chainId": 2013,
   "networkId": 1
 }, {
-  "name": "NOW Chain",
+  "name": "NOW Chain Testnet",
   "chain": "NOW",
   "icon": "nowchain",
-  "rpc": ["https://rpc.nowscan.io"],
-  "faucets": [],
+  "rpc": ["https://rpc-testnet.nowscan.io"],
+  "faucets": ["https://faucet.nowchain.co"],
   "nativeCurrency": {
     "name": "NOW Coin",
     "symbol": "NOW",
@@ -12644,7 +12649,7 @@
   "networkId": 2014,
   "explorers": [{
     "name": "nowscan",
-    "url": "https://nowscan.io",
+    "url": "https://testnet.nowscan.io",
     "standard": "EIP3091"
   }]
 }, {
@@ -14703,6 +14708,20 @@
       "url": "https://bridge-holesky.morphl2.io"
     }]
   }
+}, {
+  "name": "Chips Network",
+  "chain": "CHIPS",
+  "rpc": ["https://node.chips.ooo/wasp/api/v1/chains/iota1pp3d3mnap3ufmgqnjsnw344sqmf5svjh26y2khnmc89sv6788y3r207a8fn/evm"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "IOTA",
+    "symbol": "IOTA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.chips.ooo",
+  "shortName": "chips",
+  "chainId": 2882,
+  "networkId": 2882
 }, {
   "name": "Boba Network Goerli Testnet",
   "chain": "ETH",
@@ -19653,17 +19672,17 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Klaytn Mainnet Cypress",
-  "chain": "KLAY",
+  "name": "Kaia Mainnet",
+  "chain": "KAIA",
   "rpc": ["https://public-en-cypress.klaytn.net"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "KLAY",
-    "symbol": "KLAY",
+    "name": "KAIA",
+    "symbol": "KAIA",
     "decimals": 18
   },
-  "infoURL": "https://klaytn.foundation",
-  "shortName": "Cypress",
+  "infoURL": "https://kaia.io",
+  "shortName": "kaia-mainnet",
   "chainId": 8217,
   "networkId": 8217,
   "slip44": 8217,
@@ -19758,6 +19777,26 @@
     "url": "https://scan.lorenzo-protocol.xyz",
     "standard": "none",
     "icon": "lorenzo"
+  }]
+}, {
+  "name": "B3",
+  "chain": "B3",
+  "icon": "b3",
+  "rpc": ["https://mainnet-rpc.b3.fun"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://b3.fun",
+  "shortName": "b3",
+  "chainId": 8333,
+  "networkId": 8333,
+  "explorers": [{
+    "name": "Blockscout",
+    "url": "https://explorer.b3.fun",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Dracones Financial Services",
@@ -19949,6 +19988,26 @@
     "name": "Storscan",
     "url": "https://explorer-storagechain.invo.zone/?network=StorageChain%20Testnet",
     "standard": "none"
+  }]
+}, {
+  "name": "Bullions Smart Chain",
+  "chain": "Bullions",
+  "rpc": ["https://rpc.bullionsx.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bullions",
+    "symbol": "BLN",
+    "decimals": 18
+  },
+  "infoURL": "https://www.bullionsx.io",
+  "shortName": "bln",
+  "chainId": 8732,
+  "networkId": 8732,
+  "slip44": 8732,
+  "explorers": [{
+    "name": "Bullionscan",
+    "url": "https://bullionscan.org",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Alph Network",
@@ -25258,6 +25317,30 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "SlingShot",
+  "chain": "SLING",
+  "rpc": ["https://rpc.slingshotdao.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sling",
+    "symbol": "SLING",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "https://slingshotdao.com",
+  "shortName": "slingshot",
+  "chainId": 33401,
+  "networkId": 33401,
+  "icon": "slingshot",
+  "explorers": [{
+    "name": "SlingShot Explorer",
+    "url": "https://explore.slingshotdao.com",
+    "icon": "slingshot",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Zilliqa-2 EVM Devnet",
   "chain": "ZIL",
   "rpc": ["https://api.zq2-devnet.zilliqa.com"],
@@ -28515,6 +28598,29 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Xprotocol Testnet",
+  "chainId": 83144,
+  "shortName": "xprotocoltestnet",
+  "chain": "Xprotocol Testnet",
+  "networkId": 83144,
+  "nativeCurrency": {
+    "name": "KICK Testnet Token",
+    "symbol": "KICK",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.xprotocol.org"],
+  "faucets": ["https://xprotocol.org/faucets"],
+  "explorers": [{
+    "name": "Blockscout",
+    "url": "https://explorer.testnet.xprotocol.org",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-84532"
+  },
+  "infoURL": "https://xprotocol.org/"
+}, {
   "name": "ZEDXION",
   "chain": "ZEDXION",
   "icon": "zedx",
@@ -28974,6 +29080,25 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "StratoVM Testnet",
+  "chain": "StratoVM",
+  "rpc": ["https://rpc.stratovm.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SVM",
+    "symbol": "SVM",
+    "decimals": 18
+  },
+  "infoURL": "https://www.stratovm.io/",
+  "shortName": "stratovm",
+  "chainId": 93747,
+  "networkId": 93747,
+  "explorers": [{
+    "name": "StratoVM Block Explorer",
+    "url": "https://explorer.stratovm.io",
+    "standard": "none"
+  }]
+}, {
   "name": "Mantis Testnet (Hexapod)",
   "chain": "Mantis",
   "icon": "mantis",
@@ -29015,6 +29140,30 @@
     "standard": "none"
   }],
   "status": "deprecated"
+}, {
+  "name": "SlingShot Testnet",
+  "chain": "SLING",
+  "rpc": ["https://rpc-dependent-emerald-whippet-gh6kch3nen.t.conduit.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sling Test",
+    "symbol": "SLINGT",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "https://slingshotdao.com",
+  "shortName": "sling",
+  "chainId": 97435,
+  "networkId": 97435,
+  "icon": "slingshot",
+  "explorers": [{
+    "name": "SlingShot Test Explorer",
+    "url": "https://explorer-dependent-emerald-whippet-gh6kch3nen.t.conduit.xyz",
+    "icon": "slingshot",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Green Chain Testnet",
   "chain": "Green Chain",
@@ -32921,6 +33070,35 @@
     "url": "https://testnet.btscan.io",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "BOB Sepolia",
+  "chain": "ETH",
+  "rpc": ["https://bob-sepolia.rpc.gobob.xyz", "wss://bob-sepolia.rpc.gobob.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://gobob.xyz",
+  "shortName": "bob-sepolia",
+  "chainId": 808813,
+  "networkId": 808813,
+  "icon": "bob",
+  "explorers": [{
+    "name": "bobscout",
+    "url": "https://bob-sepolia.explorer.gobob.xyz",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }],
+  "status": "active",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{
+      "url": "https://bob-sepolia.gobob.xyz/"
+    }]
+  }
 }, {
   "name": "zkLink Nova Mainnet",
   "chain": "ETH",
@@ -37170,6 +37348,29 @@
     "url": "https://scan.alphabetnetwork.org",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Fluence Stage",
+  "chain": "Fluence Stage (Testnet)",
+  "rpc": ["https://rpc-123420000220.raas-testnet.gelato.digital/", "wss://ws-123420000220.raas-testnet.gelato.digital/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "tFLT",
+    "symbol": "tFLT",
+    "decimals": 18
+  },
+  "infoURL": "https://fluence.network/",
+  "shortName": "fluence-stage",
+  "chainId": 123420000220,
+  "networkId": 123420000220,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscout-123420000220.raas-testnet.gelato.digital",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111"
+  }
 }, {
   "name": "Ntity Mainnet",
   "chain": "Ntity",
